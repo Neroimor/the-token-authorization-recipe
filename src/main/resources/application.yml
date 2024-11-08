@@ -1,0 +1,11 @@
+spring:
+  application:
+   name: Tokk
+  datasource:
+    url: jdbc:postgresql://localhost:5432/MyTesting
+    username: postgres
+    password: 4521JKMN
+    driver-class-name: org.postgresql.Driver
+logging:
+  level:
+    org.springframework.security: DEBUG
